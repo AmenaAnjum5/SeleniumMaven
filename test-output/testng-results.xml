@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4045" started-at="2022-08-21T18:51:16Z" finished-at="2022-08-21T18:51:20Z">
+  <suite name="Default suite" duration-ms="3814" started-at="2022-08-21T21:43:54Z" finished-at="2022-08-21T21:43:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4045" started-at="2022-08-21T18:51:16Z" finished-at="2022-08-21T18:51:20Z">
+    <test name="Default test" duration-ms="3814" started-at="2022-08-21T21:43:54Z" finished-at="2022-08-21T21:43:57Z">
       <class name="Pages.LoginPage">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:Pages.LoginPage@3834d63f]" name="openbrowser" duration-ms="4023" started-at="2022-08-21T14:51:16Z" finished-at="2022-08-21T14:51:20Z">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:Pages.LoginPage@3834d63f]" name="openbrowser" duration-ms="3802" started-at="2022-08-21T17:43:54Z" finished-at="2022-08-21T17:43:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
