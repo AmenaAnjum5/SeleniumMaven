@@ -29,17 +29,22 @@ public class LoginPage {
 		String title= driver.getTitle();
 		System.out.println(title);
 		
+		//select branch
+		
 		WebElement drpdwn= driver.findElement(By.xpath("//select[@name='drlist']"));
 		
 		Select selObject= new Select(drpdwn);
 		selObject.selectByValue("chinna");	
 		
+		//enter username
 		WebElement userName= driver.findElement(By.xpath("//input[@id='txtuId']"));
 		userName.sendKeys("admin");
 		
+		//enter password
 		WebElement password= driver.findElement(By.xpath("//input[@name='txtPword']"));
 		password.sendKeys("admin");
 		
+		//click Login button
 		driver.findElement(By.xpath("//input[@id='login']")).click();
 	}
 	
