@@ -46,6 +46,8 @@ public class LoginPage {
 		
 		//click Login button
 		driver.findElement(By.xpath("//input[@id='login']")).click();
+		
+		driver.close();
 	}
 	
 
