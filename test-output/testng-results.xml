@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3814" started-at="2022-08-21T21:43:54Z" finished-at="2022-08-21T21:43:57Z">
+  <suite name="Default suite" duration-ms="8296" started-at="2022-08-24T13:12:48Z" finished-at="2022-08-24T13:12:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3814" started-at="2022-08-21T21:43:54Z" finished-at="2022-08-21T21:43:57Z">
+    <test name="Default test" duration-ms="8296" started-at="2022-08-24T13:12:48Z" finished-at="2022-08-24T13:12:57Z">
       <class name="Pages.LoginPage">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:Pages.LoginPage@3834d63f]" name="openbrowser" duration-ms="3802" started-at="2022-08-21T17:43:54Z" finished-at="2022-08-21T17:43:57Z">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:Pages.LoginPage@3ab39c39]" name="openbrowser" duration-ms="1902" started-at="2022-08-24T09:12:55Z" finished-at="2022-08-24T09:12:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
       </class> <!-- Pages.LoginPage -->
+      <class name="Pages.ItemPage">
+        <test-method status="PASS" signature="viewProducts()[pri:0, instance:Pages.ItemPage@6fffcba5]" name="viewProducts" duration-ms="4361" started-at="2022-08-24T09:12:48Z" finished-at="2022-08-24T09:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProducts -->
+      </class> <!-- Pages.ItemPage -->
+      <class name="Pages.ProductPage">
+        <test-method status="PASS" signature="viewProducts()[pri:0, instance:Pages.ProductPage@2b80d80f]" name="viewProducts" duration-ms="2015" started-at="2022-08-24T09:12:53Z" finished-at="2022-08-24T09:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProducts -->
+      </class> <!-- Pages.ProductPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
