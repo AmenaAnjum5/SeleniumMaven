@@ -47,6 +47,19 @@ public class LoginPage {
 		//click Login button
 		driver.findElement(By.id("login-button")).click();
 		
+		//verify text on page to see if login was successful
+		String text1= driver.findElement(By.xpath("//div[@class='header_secondary_container']/span")).getText();
+		System.out.println(text1);
+		
+		if(text1.equals("PRODUCTS"))
+		{
+			System.out.println("Login was successful");
+		}
+		
+		else
+		{
+			System.out.println("Login was not successful");
+		}
 		//driver.close();
 	}
 	
