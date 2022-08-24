@@ -24,30 +24,30 @@ public class LoginPage {
 		driver.manage().window().maximize();
 				
 		//enter URL
-		driver.get("http://primusbank.qedgetech.com/");
+		driver.get("https://www.saucedemo.com/");
 		
 		String title= driver.getTitle();
 		System.out.println(title);
 		
 		//select branch
 		
-		WebElement drpdwn= driver.findElement(By.xpath("//select[@name='drlist']"));
+		//WebElement drpdwn= driver.findElement(By.xpath("//select[@name='drlist']"));
 		
-		Select selObject= new Select(drpdwn);
-		selObject.selectByValue("chinna");	
+		//Select selObject= new Select(drpdwn);
+		//selObject.selectByValue("chinna");	
 		
 		//enter username
-		WebElement userName= driver.findElement(By.xpath("//input[@id='txtuId']"));
-		userName.sendKeys("admin");
+		WebElement userName= driver.findElement(By.name("user-name"));
+		userName.sendKeys("standard_user");
 		
 		//enter password
-		WebElement password= driver.findElement(By.xpath("//input[@name='txtPword']"));
-		password.sendKeys("admin");
+		WebElement password= driver.findElement(By.name("password"));
+		password.sendKeys("secret_sauce");
 		
 		//click Login button
-		driver.findElement(By.xpath("//input[@id='login']")).click();
+		driver.findElement(By.id("login-button")).click();
 		
-		driver.close();
+		//driver.close();
 	}
 	
 
